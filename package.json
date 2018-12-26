@@ -1,0 +1,49 @@
+{
+  "name": "ckeditor5-snippets",
+  "version": "0.0.1",
+  "description": "A plugin to manage the creation and inclusion of custom snippets into CKEditor content nodes",
+  "main": "webpack.config.js",
+  "scripts": {
+    "build": "webpack --mode development",
+    "serve": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/pdiveris/ckeditor5-snippets.git"
+  },
+  "keywords": [
+    "ckeditor5",
+    "plugins",
+    "snippets",
+    "cstom"
+  ],
+  "files": [
+    "lang",
+    "src",
+    "theme"
+  ],
+  "author": "Petros Diveris",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/pdiveris/ckeditor5-snippets/issues"
+  },
+  "homepage": "https://gitlab.com/pdiveris/ckeditor5-snippets#readme",
+  "dependencies": {
+    "@ckeditor/ckeditor5-basic-styles": "^10.1.0",
+    "@ckeditor/ckeditor5-dev-utils": "^11.0.1",
+    "@ckeditor/ckeditor5-editor-classic": "^11.0.2",
+    "@ckeditor/ckeditor5-editor-inline": "^11.0.2",
+    "@ckeditor/ckeditor5-essentials": "^10.1.3",
+    "@ckeditor/ckeditor5-paragraph": "^10.0.4",
+    "@ckeditor/ckeditor5-theme-lark": "^12.0.0",
+    "@wwalc/ckeditor5-emoji": "^11.0.2",
+    "postcss-loader": "^3.0.0",
+    "raw-loader": "^1.0.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.28.2",
+    "webpack-cli": "^3.1.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3"
+  }
+}
