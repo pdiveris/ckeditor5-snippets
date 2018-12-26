@@ -33,6 +33,8 @@ export default class Snippets extends Plugin {
 			{ name: 'expander', text: '<span class"expander">⏎</span>' }
 		] );
 
+
+
 		/**
 		 * The contextual balloon plugin instance.
 		 *
