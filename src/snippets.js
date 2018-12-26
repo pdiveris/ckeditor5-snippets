@@ -6,6 +6,9 @@ import ContextualBalloon from '@ckeditor/ckeditor5-ui/src/panel/balloon/contextu
 import ClickObserver from '@ckeditor/ckeditor5-engine/src/view/observer/clickobserver';
 import clickOutsideHandler from '@ckeditor/ckeditor5-ui/src/bindings/clickoutsidehandler';
 
+/**
+ * https://en.wikibooks.org/wiki/Unicode/List_of_useful_symbols
+ */
 export default class Snippets extends Plugin {
 	/**
 	 * @inheritDoc
