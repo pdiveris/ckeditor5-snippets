@@ -27,12 +27,7 @@ export default class Snippets extends Plugin {
 		editor.editing.view.addObserver( ClickObserver );
 
 		editor.config.define( 'snippets', [
-			{ name: 'smile', text: 'kanha' },
-			{ name: 'wink', text: 'pako' },
-			{ name: 'cool', text: 'koko' },
-			{ name: 'surprise', text: 'fifi' },
-			{ name: 'confusion', text: 'bob' },
-			{ name: 'crying', text: 'mary' }
+			{ name: 'expander', text: '<span class"expander">⏎</span>' }
 		] );
 
 		/**

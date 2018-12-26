@@ -55,7 +55,7 @@ export default class SnippetsListView extends View {
 		 * @member {module:ui/button/buttonview~ButtonView}
 		 */
 		editor.config.get( 'snippets' ).forEach( snippets => {
-			this.snippetsButtonViews.add( this._createButton( snippets.text, 'snippets:' + snippets.name ) );
+			this.snippetsButtonViews.add( this._createButton( snippets.name, 'snippets:' + snippets.name ) );
 		} );
 
 		/**
