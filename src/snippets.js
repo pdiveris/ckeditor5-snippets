@@ -60,7 +60,7 @@ export default class Snippets extends Plugin {
 			// Ugly hack for https://github.com/ckeditor/ckeditor5-ui/issues/350
 			/* eslint-env browser */
 			setTimeout( function() {
-				button.iconView.set( 'viewBox', '0 0 128 128' );
+				button.iconView.set( 'viewBox', '0 0 600 600' );
 			}, 0 );
 
 			// Show the panel on button click.
